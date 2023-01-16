@@ -1,0 +1,55 @@
+#UID| Name| Slots| Type| Dam/HP| Pow/Ammo| Mass| Range/DR| Additional Effects| AmmoCount per box
+#Utility
+UTI| Generic Item| 2| Utility| 0| 0| 0| 0| This is a placeholder.
+CPI| Cockpit| 1| Utility| 0| 0| 2| 0| 
+#Reactors
+RTI| Reactor| 1| Reactor| 0| 10| 2| 0| Produces 10 power.
+#Drives
+DVI| Drive| 1| Drive| 0| 1| 1| 0| Produces 1 MP.
+#Weapons Kinetic
+RS1| Small Railgun| 6| Kinetic Weapon| 5| 5| 8| 6/12/18| HE does half damage.| 14
+RM1| Medium Railgun| 8| Kinetic Weapon| 9| 8| 14| 7/14/21| HE does half damage.| 10
+RL1| Large Railgun| 10| Kinetic Weapon| 12| 10| 16| 8/16/24| HE does half damage.| 8
+CS1| Small Cannon| 6| Kinetic Weapon| 3| 2| 4| 4/8/12| | 10
+CM1| Medium Cannon| 10| Kinetic Weapon| 5| 3| 6| 5/10/18| | 6
+CL1| Large Cannon| 16| Kinetic Weapon| 7| 5| 8| 6/12/18| | 4
+MS1| Small Morter| 2| Kinetic Weapon| 2| 1| 2| 2-4/8/16| Indirect, -4 to hit.| 10
+MM1| Medium Morter| 4| Kinetic Weapon| 4| 2| 4| 3-6/12/20| Indirect, -4 to hit.| 8
+ML1| Large Morter| 6| Kinetic Weapon| 6| 3| 6| 6-8/16/24| Indirect, -4 to hit.| 6
+#Weapons Energy
+LS1| Small Laser| 2| Energy Weapon| 2| 3| 1| 3/6/9| | 0
+LM1| Medium Laser| 3| Energy Weapon| 4| 5| 3| 5/10/15| | 0
+LL1| Large Laser| 4| Energy Weapon| 6| 7| 4| 7/14/21| | 0
+PT1| Plasma Thrower| 6| Energy Weapon| 9| 12| 6| 1/2/3| | 10
+PC1| Plasma Cannon| 6| Energy Weapon| 7| 10| 6| 3/6/9| | 16
+PR1| Plasma Rifle| 6| Energy Weapon| 6| 14| 6| 6/8/10| | 8
+IB1| Ion Beam| 5| Energy Weapon| 4| 10| 4| 6/10/14| Ignores DR and Armour effects.| 0
+IC1| Ion Cannon| 8| Energy Weapon| 6| 16| 6| 8/14/20| Ignores DR and Armour effects.| 0
+IR1| Ion Rifle| 10| Energy Weapon| 8| 18| 7| 10/16/22| Ignores DR and Armour effects.| 0
+#Weapons Missile
+CM1| Cruise MK1| 5| Missile Weapon| 6| 6| 6| 6-20| Indirect.| 4
+CM2| Cruise MK2| 6| Missile Weapon| 8| 8| 8| 8-24| Indirect.| 2
+CM3| Cruise MK3| 9| Missile Weapon| 12| 10| 10| 12-26| Indirect.| 1
+IM1| Interceptor MK1| 4| Missile Weapon| 4| 4| 3| 3-8| +2 to hit.| 6
+IM2| Interceptor MK2| 5| Missile Weapon| 5| 5| 4| 4-8| +2 to hit.| 4
+IM3| Interceptor MK3| 6| Missile Weapon| 6| 6| 5| 5-8| +2 to hit.| 2
+MNE| Mine| 3| Missile Weapon| 20| 5| 5| 1| Hexes targeted by this weapon gain a relevant mine token, -4 to hit.| 1
+GRE| Grenade| 3| Missile Weapon| 10| 4| 2| 2/4/6| -4 to hit.| 4
+#Weapons Melee
+SB1| Small Blade| 4| Melee Weapon| 4| 1| 2| 1| Additonal -2 to hit.
+MB1| Medium Blade| 6| Melee Weapon| 8| 3| 3| 1| Additonal -2 to hit.
+LB1| Large Blade| 8| Melee Weapon| 10| 5| 4| 1| Additonal -2 to hit.
+SB2| Small Blunt| 2| Melee Weapon| 3| 1| 4| 1| 
+MB2| Medium Blunt| 4| Melee Weapon| 6| 3| 6| 1| 
+LB2| Large Blunt| 6| Melee Weapon| 9| 5| 8| 1| 
+SP1| Small Polearm| 4| Melee Weapon| 2| 1| 2| 2| 
+MP1| Mediam Polearm| 6| Melee Weapon| 4| 2| 3| 2| 
+LP1| Large Polearm| 8| Melee Weapon| 6| 3| 4| 2| 
+#Armour
+CO1| Composite| 1| Armour| 2| 0| 3| 1| 
+AB1| Ablative| 1| Armour| 8| 0| 2| 0| 
+RE1| Reactive| 1| Armour| 2| 0| 1| 0| When this item is broken, no damage tranfers.
+#Ammo
+AMM| BA Ammo| 1| Ammo| 0| 20| 1| 0| 
+AMM| AP Ammo| 1| Ammo| 0| 20| 1| 0| Half Damage; Ignore DR
+AMM| HE Ammo| 1| Ammo| 0| 20| 1| 0| Double DR and on a normal miss, any units in the target hex not directly struck take 0.5x damage

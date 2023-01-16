@@ -1,0 +1,136 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Label Theme.tres" type="Theme" id=1]
+[ext_resource path="res://setHPammo.gd" type="Script" id=2]
+[ext_resource path="res://AmmoLink.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxFlat" id=20]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 1, 1, 1, 1 )
+
+[node name="AmmoSlot" type="HBoxContainer"]
+margin_right = 764.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+script = ExtResource( 2 )
+
+[node name="Type" type="Label" parent="."]
+margin_top = 5.0
+margin_right = 180.0
+margin_bottom = 26.0
+rect_min_size = Vector2( 180, 0 )
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+text = "Type"
+clip_text = true
+
+[node name="VSeparator2" type="VSeparator" parent="."]
+margin_left = 184.0
+margin_right = 190.0
+margin_bottom = 31.0
+theme = ExtResource( 1 )
+custom_constants/separation = 6
+custom_styles/separator = SubResource( 20 )
+
+[node name="HP" type="SpinBox" parent="."]
+margin_left = 194.0
+margin_right = 276.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+align = 1
+
+[node name="slash" type="Label" parent="."]
+margin_left = 280.0
+margin_top = 5.0
+margin_right = 289.0
+margin_bottom = 26.0
+theme = ExtResource( 1 )
+text = "/"
+
+[node name="Max" type="Label" parent="."]
+margin_left = 293.0
+margin_top = 5.0
+margin_right = 375.0
+margin_bottom = 26.0
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+text = "Max"
+align = 1
+
+[node name="VSeparator3" type="VSeparator" parent="."]
+margin_left = 379.0
+margin_right = 385.0
+margin_bottom = 31.0
+theme = ExtResource( 1 )
+custom_constants/separation = 6
+custom_styles/separator = SubResource( 20 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 389.0
+margin_right = 472.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "Link"
+script = ExtResource( 3 )
+
+[node name="VSeparator5" type="VSeparator" parent="."]
+margin_left = 476.0
+margin_right = 482.0
+margin_bottom = 31.0
+theme = ExtResource( 1 )
+custom_constants/separation = 6
+custom_styles/separator = SubResource( 20 )
+
+[node name="Ammo" type="SpinBox" parent="."]
+margin_left = 486.0
+margin_right = 568.0
+margin_bottom = 31.0
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+align = 1
+
+[node name="slash2" type="Label" parent="."]
+margin_left = 572.0
+margin_top = 5.0
+margin_right = 581.0
+margin_bottom = 26.0
+theme = ExtResource( 1 )
+text = "/"
+
+[node name="AmmoMax" type="Label" parent="."]
+margin_left = 585.0
+margin_top = 5.0
+margin_right = 667.0
+margin_bottom = 26.0
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+text = "Max"
+align = 1
+
+[node name="VSeparator4" type="VSeparator" parent="."]
+margin_left = 671.0
+margin_right = 677.0
+margin_bottom = 31.0
+theme = ExtResource( 1 )
+custom_constants/separation = 6
+custom_styles/separator = SubResource( 20 )
+
+[node name="Effect" type="Label" parent="."]
+margin_left = 681.0
+margin_top = 5.0
+margin_right = 764.0
+margin_bottom = 26.0
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+text = "Effect"
+align = 1
+autowrap = true
+
+[connection signal="value_changed" from="HP" to="." method="_on_HP_value_changed"]
+[connection signal="value_changed" from="Ammo" to="." method="_on_Ammo_value_changed"]

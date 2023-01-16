@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/window-minimize-solid.svg-6d7841561f4a49a3093e5b58d5089fd0.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://window-minimize-solid.svg"
+dest_files=[ "res://.import/window-minimize-solid.svg-6d7841561f4a49a3093e5b58d5089fd0.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=true
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=20
+detect_3d=true
+svg/scale=0.05

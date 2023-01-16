@@ -1,0 +1,37 @@
+#UID| Name| Action| Effects| Requirements
+#Pointman
+PM1| Guardian| Reaction| When an ally is targeted by fire or strike action in an adjacent hex, you are braced, and closer to the offence than the targeted ally, before they roll to hit/defend, you may redirect the attack to you. The attacker then continues with the action now targeting you.|  
+PM2| Covered Flanks| Passive| Attacks originating in your side arcs do not ignore your braced or dodge condition.|  
+PM3| Poise| Action| Gain another reaction, this can be used anytime until the start of your next turn.|  
+#Gunner
+GR1| Multi-Target| Augment| When taking the fire action not as part of another action, you may split fire between targets. Declare which weapons are targeting who before you roll.|  
+GR2| Adjust Aim| Once Per Turn - Action| Take a fire action against one target, then take an aim action.|  
+GR3| Precision Strike| Action| Take a fire action against one target, taking an additional -6 to hit. If you succeed or better improve the level of success by one level.| Requirements: must be aimed.
+GR4| Double Tap| 2 Actions| Take two fire actions against one target, applying any aim bonuses to both fire actions.|  
+#Blademaster
+BM1| Charge| Once Per Turn - Action| Take a move action and then a strike action.| 
+BM2| Counter| Reaction| When an actor would use the Strike action against you, instead of rolling melee dodge, you may roll a melee attack. If you win the challenge, count it as if you had succeeded in a strike action with that degree of success. If you fail, you will be hit as normal.| 
+BM3| Blade Mastery | Augment| Strike actions only take -1 for each additional weapon, instead of -2.| 
+#Recon
+RC1| Lookout| Reaction| Use the delay action, you may designate an ally instead of yourself. If they accept, they gain the benefits of the delay action.| 
+RC2| Target Lock| Augment| When you use the mark action, all allies get +2 to hit the marked target, till the mark expires.| 
+RC3| Alert| Passive| +1 initiative at all times, and go first on any tied initiative.| 
+#Commander
+CM1| Orders| Once Per Turn - Action| Give one ally in line of sight a move, fire, strike, dodge, brace, or take cover action. They may take that action immediately or lose it.| 
+CM2| Support| Augment| When you use an aid action, the aid gives +3 instead of +2.| 
+CM3| Evolving Situation| Reaction| Take the aid action, after another player has failed a roll or , to give them the Aided status to use for that role alone. The aid bonus applies even though the roll has already been made.| 
+#Tech
+TC1| Jury Rig| 2 Actions| Target adjacent Strikers’ broken or damaged system works until the start of your next turn, ignoring any status other than destruction. If it's only damaged, it also gains HP equal to your Intellect + Mechanics.| 
+TC2| Patch Up| Action| Target adjacent Striker gains armour to one module equal to your Intellect + Mechanics (half if patching composite armour). Does not work on reactive armour.| 
+TC3| Trojan| Action| Infect an opposing Striker with a virus to reduce its effectiveness. Challenge one target mech within Mechanics hexes, roll Intellect + Mechanics versus theirs. Should you succeed, count one of their systems, other than the cockpit, as broken till the start of your next turn, with less HP than degree of success.| 
+TC4| Overdrive| Action| [UNFINISHED].| 
+#Nuke
+NK1| Overwhelm| Action| Take a fire or strike action against one target that you have already hit this turn, counting great and critical successes as successes. The target must take a piloting test with the DT equalling the total damage done (after armour has reduced damage), if the test is failed the target loses brace or dodge (target’s choice).| 
+NK2| Let Loose| Once Per Turn - Action| Take two fire actions one after another. Both actions take -3 to hit, counting great and critical successes as successes.| 
+NK3| Force Them Down| Augment| When you use the suppress action, suppress up to two adjacent targets.| 
+#Bastard
+BD1| Offensive Nature| Passive| Use panache instead of Intellect for close combat evasion.| 
+BD2| Draining Insult| Passive| When you crit with any number of attacks in an action, challenge the target with your panache + coercion versus their mental fortitude. Should you win, suppress them with the weapons that crit in this action. The defence may use a focus point to ignore this effect.| 
+BD3| Feint| Once Per Turn - Action| Challenge one target within line of sight and Panache hexes of you. Roll panache + coercion against their mental fortitude. Should you beat the defence, they lose one reaction.| 
+#Brawler
+#Psyker
